@@ -60,15 +60,20 @@
     <script src="script.js"></script>
     <script src="https://unpkg.com/@stackblitz/sdk@1/bundles/sdk.umd.js"></script>
     <script>
-      import sdk from '@stackblitz/sdk';
+    
+    import sdk from '@stackblitz/sdk'
 
-      sdk.embedProjectId('elementOrId', 'web-platform-z1lzlr', {
-        forceEmbedLayout: true,
-        openFile: 'index.html',
-        view: 'preview',
-        theme: 'dark',
-        hideDevTools: true,
-      });
+sdk.embedProjectId(
+  'elementOrId',
+  'web-platform-ktujlw',
+  {
+    forceEmbedLayout: true,
+    openFile: 'index.html',
+    view: 'preview',
+    hideExplorer: true,
+  }
+);
+    
     </script>
   </body>
 </html>
